@@ -93,6 +93,8 @@ function draw() {
    monster.display();
   superman.display();
   ground.display();
+  
+  rope.display();
 }
 function mouseDragged(){
       Matter.Body.setPosition(superman.body, {x: mouseX , y: mouseY}); 
