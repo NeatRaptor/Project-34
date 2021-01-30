@@ -55,7 +55,7 @@ function setup() {
 
   rope = new Rope(superman.body,{x:400,y:100});
 
-  ground = new Ground(1500,500,3000,20);
+  ground = new Ground(500,500,1830,20);
 }
 function draw() {
   background(backgroundImg);
